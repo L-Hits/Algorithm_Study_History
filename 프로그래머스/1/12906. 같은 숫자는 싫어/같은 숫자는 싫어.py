@@ -8,7 +8,4 @@ def solution(arr):
             same_num = arr[i]
             answer.append(arr[i])
     
-    
-    
-    
     return answer
