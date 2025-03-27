@@ -1,0 +1,13 @@
+result = []
+
+while True:
+    nums = list(map(int, input().split()))
+    nums.sort()
+    if nums[0] == 0 and nums[1] == 0 and nums[2] == 0:
+        break
+    if nums[0] ** 2 + nums[1] ** 2 == nums[2] ** 2:
+        result.append('right')
+    else:
+        result.append('wrong')
+
+print('\n'.join(result))
